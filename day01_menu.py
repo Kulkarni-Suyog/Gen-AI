@@ -7,10 +7,7 @@ while True:
 
 
     choice=input("enter your choice of number:")
-    if choice =="git status
-git add day01_intro.py
-git commit -m "Add day01 intro Python file"
-git push origin main":
+    if choice =="1":
         print("GSTSaral is platform where you can find or read the upadtes of the rules and regulations of the gst also finding the tax which as per the product how much it will taking.")
 
     elif choice =="2":
