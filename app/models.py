@@ -1,6 +1,3 @@
-
-# app/models.py
-
 from dataclasses import dataclass, asdict
 
 
