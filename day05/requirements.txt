@@ -1,0 +1,10 @@
+requests
+pypdf
+python-dotenv
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+numpy
+scikit-learn
+httpx
