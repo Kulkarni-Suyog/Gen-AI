@@ -1,8 +1,0 @@
-[
-    {
-        "filename": "sample_gst.txt",
-        "file_type": "TXT",
-        "page": null,
-        "text": "\nGSTSARAL - SAMPLE GST DOCUMENT\n\nGST stands for Goods and Services Tax.\n\nGST is an indirect tax applicable to the supply\nof goods and services in India.\n\nThere are three major types of GST:\n\n1. CGST - Central Goods and Services Tax.\n2. SGST - State Goods and Services Tax.\n3. IGST - Integrated Goods and Services Tax.\n\nCGST and SGST generally apply to intra-state\nsupplies, while IGST generally applies to\ninter-state supplies.\n\nInput Tax Credit allows eligible registered\ntaxpayers to claim credit for GST paid on\neligible business purchases, subject to\napplicable legal conditions.\n"
-    }
-]
