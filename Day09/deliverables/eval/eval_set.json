@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the GST rate for UHT milk after the 56th Council changes?",
+    "expected": "Nil, effective 22 September 2025; verify product definition."
+  },
+  {
+    "question": "What is the GST rate for toilet soap bars?",
+    "expected": "5% in the sample source summary; verify HSN/classification."
+  },
+  {
+    "question": "What is the GST rate for bicycles?",
+    "expected": "5% per 56th Council summary; verify exact tariff entry."
+  },
+  {
+    "question": "What changed for notebooks?",
+    "expected": "Exercise books/notebooks are listed as nil-rated in the 2025 summary; verify exact entry."
+  },
+  {
+    "question": "What is the GST rate for butter?",
+    "expected": "5% per 56th Council summary."
+  },
+  {
+    "question": "What is the GST rate for ghee?",
+    "expected": "5% per 56th Council summary."
+  },
+  {
+    "question": "What is the GST rate for shampoo?",
+    "expected": "5% per 56th Council summary."
+  },
+  {
+    "question": "What is the GST rate for toothpaste?",
+    "expected": "5% per 56th Council summary."
+  },
+  {
+    "question": "Can I split IGST into CGST and SGST for an inter-state sale?",
+    "expected": "No; inter-state supply uses IGST in this simplified calculator."
+  },
+  {
+    "question": "Tell me the GST rate for the blue widget brand Zorblax model 99.",
+    "expected": "I don't know; insufficient source evidence."
+  }
+]
