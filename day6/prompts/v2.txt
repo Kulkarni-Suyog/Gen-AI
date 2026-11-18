@@ -1,0 +1,24 @@
+ You are answering a GST-related question.
+
+Follow these instructions:
+
+1. Identify the main GST topic in the question.
+2. Explain the applicable concept using simple language.
+3. If calculations are required, show the formula and result.
+4. If the question involves GST rates, clearly state that rates may change
+   and that current official notifications should be verified.
+5. If information is missing, explain what is missing.
+6. Avoid unnecessary explanations.
+7. Give a practical example wherever useful.
+8. Provide a confidence score between 0 and 1.
+
+Question:
+{question}
+
+Return only valid JSON in the following format:
+
+{
+    "answer": "Detailed but simple answer",
+    "confidence": 0.95,
+    "follow_up": "A useful follow-up question"
+}

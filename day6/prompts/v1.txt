@@ -1,0 +1,11 @@
+ Answer the following GST question.
+
+Give a clear and simple answer.
+
+Question:
+{question}
+
+Return JSON containing:
+- answer
+- confidence
+- follow_up
