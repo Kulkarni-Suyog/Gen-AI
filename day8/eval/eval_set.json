@@ -1,0 +1,17 @@
+[
+  {"id":"Q1","question":"What is the GST rate on UHT milk?","expected_record_ids":["1"],"answerable":true},
+  {"id":"Q2","question":"What is the GST rate for pre-packaged paneer?","expected_record_ids":["2"],"answerable":true},
+  {"id":"Q3","question":"What GST applies to roti, chapati and paratha?","expected_record_ids":["3"],"answerable":true},
+  {"id":"Q4","question":"What is the new GST rate on hair oil?","expected_record_ids":["4"],"answerable":true},
+  {"id":"Q5","question":"What is the GST rate on shampoo?","expected_record_ids":["5"],"answerable":true},
+  {"id":"Q6","question":"Will GST rates increase in the future?","expected_record_ids":[],"answerable":false},
+  {"id":"Q7","question":"What is the GST rate on toilet soap bars?","expected_record_ids":["6"],"answerable":true},
+  {"id":"Q8","question":"What GST rate applies to bicycles?","expected_record_ids":["9"],"answerable":true},
+  {"id":"Q9","question":"What is the GST rate on exercise books?","expected_record_ids":["10"],"answerable":true},
+  {"id":"Q10","question":"What is the GST rate on toothpaste?","expected_record_ids":["7"],"answerable":true},
+  {"id":"Q11","question":"What rate applies to hair oil after the GST changes?","expected_record_ids":["4"],"answerable":true},
+  {"id":"Q12","question":"When did the new shampoo GST rate take effect?","expected_record_ids":["5"],"answerable":true},
+  {"id":"Q13","question":"What was the previous GST rate on toilet soap?","expected_record_ids":["6"],"answerable":true},
+  {"id":"Q14","question":"Did GST on UHT milk change?","expected_record_ids":["1"],"answerable":true},
+  {"id":"Q15","question":"What document lists the GST changes for paneer?","expected_record_ids":["2"],"answerable":true}
+]
