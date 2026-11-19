@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [
+  ".git",
+  ".venv",
+  "venv",
+  "__pycache__",
+  "chroma_db",
+]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+ignore = ["F401", "F403", "F405"]
