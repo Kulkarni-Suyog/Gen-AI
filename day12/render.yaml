@@ -1,0 +1,25 @@
+# Render Blueprint for GSTSaral (API + Streamlit UI from the same Dockerfile).
+# Render dashboard -> New -> Blueprint -> pick this repo.
+services:
+  - type: web
+    name: gstsaral-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /health
+    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false          # you type the value in the Render dashboard
+      - key: GEMINI_API_KEY
+        sync: false
+
+  - type: web
+    name: gstsaral-ui
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerCommand: sh -c "streamlit run ui/app.py --server.port $PORT --server.address 0.0.0.0"
+    plan: free
+    envVars:
+      - key: API_URL
+        value: https://gstsaral-api.onrender.com   # change if Render gives the API another name
